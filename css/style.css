@@ -9,7 +9,7 @@ ul{
     padding-left: 0;
 }
 
-ol li, qqqul li {
+ol li, ul li {
     list-style-position: inside;
 }
 
