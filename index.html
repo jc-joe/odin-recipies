@@ -18,12 +18,17 @@
             background-color: white;
         }
 
+        .box {
+            /* border-radius: 60px; */
+        }
+
         .container {
             width: 1000px;
             margin: 0 auto;
             background-color: hsl(240, 3%, 59%);
             padding: 20px 10px;
             height: 1500px;
+            /* border-radius: 5px; */
         }
 
         .first-heading {
@@ -50,16 +55,20 @@
             color: rgb(1, 22, 33);
             font-family: Verdana, sans-serif;
         }
+
+        .list .box {
+            border-radius: 30px;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="first-heading heading">Odin Recipies</h1>
+    <div class="container box">
+        <h1 class="first-heading heading box">Odin Recipies</h1>
         <ul class="list">
-            <li><a href="./recipies/meatpie.html">Meatpie Recipe</a></li>
-            <li><a href="./recipies/pancake.html">Pancake Recipe</a></li>
-            <li><a href="./recipies/pizza.html">Pizza recipe</a></li>
+            <li class="box"><a href="./recipies/meatpie.html">Meatpie Recipe</a></li>
+            <li class="box"><a href="./recipies/pancake.html">Pancake Recipe</a></li>
+            <li class="box"><a href="./recipies/pizza.html">Pizza recipe</a></li>
         </ul>
     </div>
 
