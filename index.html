@@ -6,15 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipies</title>
     <link rel="stylesheet" href="./css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        body {
+            background-color: white;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: hsl(240, 3%, 59%);
+            padding: 20px 10px;
+            height: 1500px;
+        }
+
+        .first-heading {
+            padding: 15px;
+            text-align: center;
+            background-color: rgb(244, 255, 248);
+        }
+
+        .list {
+            list-style: none;
+            margin: 20px auto 0;
+            width: 300px;
+        }
+
+        .list li {
+            margin: 10px 0;
+            text-align: center;
+            font-size: 25px;
+            padding: 15px;
+            background-color: rgb(244, 255, 248);
+        }
+
+        .list li a {
+            color: rgb(1, 22, 33);
+            font-family: Verdana, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="first-heading heading">Odin Recipies</h1>
-    <ul>
-        <li><a href="./recipies/meatpie.html">Meatpie Recipe</a></li>
-        <li><a href="./recipies/pancake.html">Pancake Recipe</a></li>
-        <li><a href="./recipies/pizza.html">Pizza recipe</a></li>
-    </ul>
+    <div class="container">
+        <h1 class="first-heading heading">Odin Recipies</h1>
+        <ul class="list">
+            <li><a href="./recipies/meatpie.html">Meatpie Recipe</a></li>
+            <li><a href="./recipies/pancake.html">Pancake Recipe</a></li>
+            <li><a href="./recipies/pizza.html">Pizza recipe</a></li>
+        </ul>
+    </div>
+
 </body>
 
 </html>
